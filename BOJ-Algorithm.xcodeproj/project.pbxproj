@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B786E26D2A09308E00832767 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B786E26C2A09308E00832767 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B786E2672A09308E00832767 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		B786E2692A09308E00832767 /* BOJ-Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BOJ-Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B786E26C2A09308E00832767 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +52,6 @@
 		B786E26B2A09308E00832767 /* BOJ-Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				B786E26C2A09308E00832767 /* main.cpp */,
 			);
 			path = "BOJ-Algorithm";
 			sourceTree = "<group>";
@@ -119,7 +113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B786E26D2A09308E00832767 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
