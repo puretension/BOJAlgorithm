@@ -1,6 +1,6 @@
-#include<bits/stdc++.h>
-using namespace std;
-
+//#include<bits/stdc++.h>
+//using namespace std;
+//
 //int N = 6;
 //int INF = 1e9;
 //
@@ -58,19 +58,23 @@ using namespace std;
 //    return 0;
 //}
 
+//정점의 갯수만큼 필수적으로 반복해야하기때문에 정점이 1e9개, 간선이 2~3개라면 비효율적임
 
-////정점의 갯수만큼 필수적으로 반복해야하기때문에 정점이 1e9개, 간선이 2~3개라면 비효율적임
-//
-//
+
+//#include<bits/stdc++.h>
+//using namespace std;
 //int N = 6;
 //int INF = 1e9;
 //
 //vector<pair<int, int>>a[7]; //간선 정보
 //int d[7]; //비용
+//bool visited[7];
+//
 //
 //void dijkstra(int start){
 //    d[start] = 0;
 //    priority_queue<pair<int,int>>pq; //힙
+//
 //    pq.push(make_pair(start, 0));
 //    while(pq.size()){
 //        int cur = pq.top().first;
@@ -86,7 +90,6 @@ using namespace std;
 //            if(nextDistance < d[next]){
 //                d[next] = nextDistance;
 //                pq.push(make_pair(next, -nextDistance));
-//
 //            }
 //        }
 //    }
