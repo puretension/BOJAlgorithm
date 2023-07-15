@@ -36,7 +36,7 @@
 
 
 
-//트럭문제
+//2979 트럭문제
 //int cnt[101];
 //int sum = 0;
 //int minT, maxT;
