@@ -4,3 +4,17 @@
 여기서 a.cpp는 예시 파일명으로 a.cpp라는 파일을 엄격하게(-wall) C++14버전으로 컴파일해서 test.out라는 파일을 만든다(-o test.out)
 ### 3.  ./test.out  (실행)
 ### 4. 솔브할때 a.cpp로 빌드하고, 기록할때 해당 알고리즘으로 파일명 수정하자
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){ 
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int n;
+    cin >> n;
+    
+        return 0;
+}
